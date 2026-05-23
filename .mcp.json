@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "screenpipe": {
+      "command": "node",
+      "args": [
+        "./screenpipe/packages/screenpipe-mcp/dist/index.js",
+        "--port",
+        "3030"
+      ]
+    },
+    "overlay": {
+      "command": "node",
+      "args": [
+        "./screenpipe/packages/overlay-mcp/index.mjs"
+      ]
+    }
+  }
+}
